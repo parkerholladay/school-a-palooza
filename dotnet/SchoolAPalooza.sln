@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Web", "SchoolAPalooza.Web\SchoolAPalooza.Web.csproj", "{B4F9C525-5C56-440E-B4C2-972A33D7C8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Infrastructure", "SchoolAPalooza.Infrastructure\SchoolAPalooza.Infrastructure.csproj", "{3006E7BC-F53E-4D42-9BE7-C40FA315D198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Application", "SchoolAPalooza.Application\SchoolAPalooza.Application.csproj", "{50D4C493-09EA-434F-BE2F-7550C4A07CB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Web.SelfHosted", "SchoolAPalooza.Web.SelfHosted\SchoolAPalooza.Web.SelfHosted.csproj", "{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Application.Specs", "SchoolAPalooza.Application.Specs\SchoolAPalooza.Application.Specs.csproj", "{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Infrastructure.IntegrationSpecs", "SchoolAPalooza.Infrastructure.IntegrationSpecs\SchoolAPalooza.Infrastructure.IntegrationSpecs.csproj", "{13954DB5-7643-49B9-81F3-C368CD36C372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F9C525-5C56-440E-B4C2-972A33D7C8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F9C525-5C56-440E-B4C2-972A33D7C8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F9C525-5C56-440E-B4C2-972A33D7C8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F9C525-5C56-440E-B4C2-972A33D7C8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3006E7BC-F53E-4D42-9BE7-C40FA315D198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3006E7BC-F53E-4D42-9BE7-C40FA315D198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3006E7BC-F53E-4D42-9BE7-C40FA315D198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3006E7BC-F53E-4D42-9BE7-C40FA315D198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D4C493-09EA-434F-BE2F-7550C4A07CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D4C493-09EA-434F-BE2F-7550C4A07CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D4C493-09EA-434F-BE2F-7550C4A07CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D4C493-09EA-434F-BE2F-7550C4A07CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13954DB5-7643-49B9-81F3-C368CD36C372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13954DB5-7643-49B9-81F3-C368CD36C372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13954DB5-7643-49B9-81F3-C368CD36C372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13954DB5-7643-49B9-81F3-C368CD36C372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
