@@ -1,0 +1,12 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<SchoolAPalooza.Application.ViewModels.IndexVm>
+
+@{
+    Layout = "views/layout.cshtml";
+    ViewBag.Title = "School-a-Palooza";
+}
+
+<div class="nancy-content">
+    <img src="~/content/nancy-logo.png" alt="Nancy logo" />
+    <div>This view was rendered using the Nancy Razor view engine</div>
+    <div>This site is running using Nancy @Model.Hosting hosting</div>
+</div>

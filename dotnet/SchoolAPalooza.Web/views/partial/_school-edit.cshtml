@@ -1,0 +1,29 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase <SchoolAPalooza.Application.ViewModels.SchoolVm>
+
+<div>
+    <form>
+        <input name="schoolId" value="@Model.SchoolId" hidden />
+        <div>
+            <div>
+                <span class="edit-label">School name</span>
+                <input type="text" name="name" value="@Model.Name"/>
+            </div>
+            <div>
+                <span class="edit-label">Education level</span>
+                <select name="level">
+                    @foreach (var level in Model.AvailableLevels)
+                    {
+                        if (Model.Level.Key == level.Key)
+                        {
+                            <option value="@level.Key" selected>@level.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@level.Key">@level.Name</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+    </form>
+</div>

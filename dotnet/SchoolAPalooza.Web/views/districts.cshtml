@@ -1,0 +1,38 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<SchoolAPalooza.Application.ViewModels.AllDistrictsVm>
+
+@{
+    Layout = "views/layout.cshtml";
+    ViewBag.Title = "Districts | School-a-Palooza";
+}
+
+<div class="district-header">
+    <h1 class="district-header-title">All Districts</h1>
+</div>
+<div id="district-accordion" class="accordion-panel-group panel-group">
+    @foreach (var district in Model.Districts)
+    {
+        <div class="accordion-panel panel">
+            <div class="panel-heading">
+                <div id="district-@(district.DistrictId)-toggle" class="accordion-panel-toggle collapsed" data-toggle="collapse" data-parent="#district-accordion" data-target="#district-@(district.DistrictId)">
+                    <h2 id="district-@(district.DistrictId)-header" class="accordion-panel-title">@district.FullName</h2>
+                </div>
+            </div>
+            <div id="district-@(district.DistrictId)" class="panel-collapse collapse">
+                <div class="accordion-panel-body panel-body">
+                    @Html.Partial("partial/_district-edit", district)
+                </div>
+                <div class="accordion-panel-footer panel-footer">
+                    Bacon ipsum
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(() => {
+            $('.accordion-panel-toggle').click(handleToggleAccordion);
+        });
+    </script>
+}

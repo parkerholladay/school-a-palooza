@@ -1,0 +1,16 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase <SchoolAPalooza.Application.ViewModels.SimpleDistrictVm>
+
+<div>
+    <form>
+        <input name="districtId" value="@Model.DistrictId" hidden />
+        <div>
+            <div>
+                <span class="edit-label">District name</span>
+                <input type="text" name="name" value="@Model.Name"/>
+            </div>
+            <div class="see-details-button">
+                <a class="button-link button-secondary" href="districts/@Model.DistrictId">See details</a>
+            </div>
+        </div>
+    </form>
+</div>
