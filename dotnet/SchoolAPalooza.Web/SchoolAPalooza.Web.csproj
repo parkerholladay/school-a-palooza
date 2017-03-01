@@ -150,7 +150,7 @@
       <WebContent Include="content\**\*.*" />
       <WebViews Include="views\**\*.*" />
     </ItemGroup>
-    <Copy SourceFiles="@(WebContent)" DestinationFolder="..\SchoolAPalooza.Web.SelfHosted\bin\$(Configuration)\content\%(RecursiveDir)" />
+    <Copy SourceFiles="@(WebContent)" DestinationFolder="..\SchoolAPalooza.Web.SelfHosted\bin\$(Configuration)\Content\%(RecursiveDir)" />
     <Copy SourceFiles="@(WebViews)" DestinationFolder="..\SchoolAPalooza.Web.SelfHosted\bin\$(Configuration)\views\%(RecursiveDir)" />
   </Target>
 </Project>
