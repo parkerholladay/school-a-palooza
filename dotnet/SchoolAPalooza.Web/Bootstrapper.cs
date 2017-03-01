@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using Nancy;
+﻿using Nancy;
 using Nancy.Bootstrapper;
 using Nancy.TinyIoc;
-using Nancy.ViewEngines.Razor;
 using SchoolAPalooza.Infrastructure;
 using SchoolAPalooza.Infrastructure.External;
 using SchoolAPalooza.Infrastructure.Repositories;
@@ -25,36 +23,6 @@ namespace SchoolAPalooza.Web
             container.Register(connection);
 
             StaticConfiguration.DisableErrorTraces = !appStateRepository.GetRequiredSetting("showErrorTraces").AsBool();
-        }
-
-        protected class RazorConfiguration : IRazorConfiguration
-        {
-            public IEnumerable<string> GetAssemblyNames()
-            {
-                return new List<string>
-                {
-                    "Nancy",
-                    "Nancy.ViewEngines.Razor",
-                    "SchoolAPalooza.Application",
-                    "SchoolAPalooza.Web",
-                    "System",
-                    "System.Web.Mvc",
-                };
-            }
-
-            public IEnumerable<string> GetDefaultNamespaces()
-            {
-                return new List<string>
-                {
-                    "Nancy",
-                    "Nancy.ViewEngines.Razor",
-                    "SchoolAPalooza.Application.ViewModels",
-                    "System",
-                    "System.Web.Mvc.Html",
-                };
-            }
-
-            public bool AutoIncludeModelNamespace { get { return true; } }
         }
     }
 }

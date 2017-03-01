@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Application", "SchoolAPalooza.Application\SchoolAPalooza.Application.csproj", "{50D4C493-09EA-434F-BE2F-7550C4A07CB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Web.SelfHosted", "SchoolAPalooza.Web.SelfHosted\SchoolAPalooza.Web.SelfHosted.csproj", "{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Application.Specs", "SchoolAPalooza.Application.Specs\SchoolAPalooza.Application.Specs.csproj", "{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPalooza.Infrastructure.IntegrationSpecs", "SchoolAPalooza.Infrastructure.IntegrationSpecs\SchoolAPalooza.Infrastructure.IntegrationSpecs.csproj", "{13954DB5-7643-49B9-81F3-C368CD36C372}"
@@ -33,10 +31,6 @@ Global
 		{50D4C493-09EA-434F-BE2F-7550C4A07CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50D4C493-09EA-434F-BE2F-7550C4A07CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50D4C493-09EA-434F-BE2F-7550C4A07CB3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68F5F5F3-B8BB-4911-875F-6F00AAE04EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6C5FA9D-C662-4FF3-A3CA-7C63610F84B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
